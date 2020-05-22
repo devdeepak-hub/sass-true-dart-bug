@@ -1,0 +1,8 @@
+@import '../node_modules/sass-true/sass/true';
+
+@include describe('basic scss setup test with long sass-true import') {
+    @include it('Scss test 2') {
+        @include assert-equal(4,4);
+    }
+}
+

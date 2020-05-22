@@ -1,0 +1,11 @@
+@import 'true';
+
+@include describe('basic scss setup test') {
+    @include it('Scss test 1') {
+        @include assert-equal(4,4);
+    }
+}
+
+
+
+
